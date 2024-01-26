@@ -11,6 +11,7 @@ import Skills from './components/functionalcomponents/Skills';
 import Home from './components/functionalcomponents/Home';
 import Login from './components/functionalcomponents/login';
 import Footer from './components/functionalcomponents/Footer';
+import Signup from './components/functionalcomponents/Signup';
 function App() {
   return (
     
@@ -18,6 +19,7 @@ function App() {
       <BrowserRouter>
       <NavBar/>
       <Routes>
+        <Route path='/signup' element={<Signup/>}></Route>
         <Route path='/Home' element={<Home/>}></Route>
         <Route path = '/About' element={<About/>}></Route>
         <Route path = '/Skills' element={<Skills/>}></Route>

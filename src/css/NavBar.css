@@ -10,23 +10,56 @@ ul{
 }
 ul li {
     display: block; 
-    background-color: grey;
+    
     color:black;
     padding:10px;
 
 }
-p{
+.link,a{
+    color:white;
+
+}
+form{
+    width: 50%;
+    margin: auto;
+    margin-top: 5vh;
+    box-shadow:10px 10px 10px 10px ;
+    padding: 30px;
+}
+
+form input{
+    width: 50%;
+    float: right;
+    margin-right: 6%;
+}
+.submit
+{
+    margin-left: 2%;
+}
+label{
+    margin-left: 6%;
+    font-size: 15px;
+    }
+.login{
+    margin-top: 30px; 
+    text-align: center; 
+}
+.signup{
+    margin-top: 30px; 
+    text-align: center; 
+}
+.footer{
     margin-top: auto;
-    padding: 1em;
+    padding: 10px;
     background-color: #333;
     color: white;
     position: absolute;
     bottom: 0;
     width: 100%;
 }
-h1{
+/* h1{
     padding: 200px;
-}
+} */
 /* .container{
     padding: 230px;
     

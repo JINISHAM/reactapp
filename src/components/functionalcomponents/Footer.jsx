@@ -5,7 +5,11 @@ import React from "react";
 // }
 function Footer(){
     return(
-        <p>@Jinisha's Page</p>
+        <div class="footer">
+        <p>&copy; Jinisha's Page</p>
+        <p>Contact:jinishamurugesh@gmail.com</p>
+        <a href="https://github.com/JINISHAM">Github</a>
+        </div>
     );
 }
 
